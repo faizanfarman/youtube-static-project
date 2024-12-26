@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/video.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>youtube.com | clone</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-icon" src="icons/hamburger-menu.svg" alt="hamburger-menu">
+            <img class="youtube-icon" src="icons/youtube-logo.svg" alt="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="search">
+                <div class="tooltip">Search</div>   
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice-search">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-icon-container">
+                <img class="apps-icon" src="icons/youtube-apps.svg" alt="apps-icon">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-container">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="notifications-icon">
+                <div class="notifications-count">8</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div class="current-user-container">
+                <a href="https://www.youtube.com/@itsnotfaizan" target="_blank">
+                    <img class="current-user-icon" src="profile-pictures/my-channel.jpg" alt="current-user-image">
+                </a>
+                <div class="tooltip">M Faizan</div>
+            </div>
+        </div>
+    </header>
+    <!-- sidebar -->
+    <nav class="sidebar">
+        <div class="box-sidebar">
+            <img src="icons/home.svg" alt="home">
+            <div>Home</div>
+        </div>
+        <div class="box-sidebar">
+            <img src="icons/explore.svg" alt="explore">
+            <div>Explore</div>
+        </div>
+        <div class="box-sidebar">
+            <img src="icons/subscriptions.svg" alt="subscriptions">
+            <div>Subscriptions</div>
+        </div>
+        <div class="box-sidebar">
+            <img src="icons/originals.svg" alt="originals">
+            <div>Originals</div>
+        </div>
+        <div class="box-sidebar">
+            <img src="icons/youtube-music.svg" alt="youtube-music">
+            <div>YouTube Music</div>
+        </div>
+        <div class="box-sidebar">
+            <img src="icons/library.svg" alt="library">
+            <div>Library</div>
+        </div>
+    </nav>
+    <!-- all-videos -->
+    <main>
+        <section class="grid-div"> 
+            <!-- video-1 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://youtu.be/co0vuaL3y9A" target="_blank">
+                      <img class="img-thumbnail" src="thumbnails/thumbnail-1.webp" alt="video-thumbnail"> 
+                   </a>
+                   <div class="video-time">39:48</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@Alan_and_Shannon" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-1.jpg" alt="profile-image">
+                       </a>     
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://youtu.be/co0vuaL3y9A" target="_blank">
+                               ISLAMABAD is the Place To Be in Pakistan <span class="first-span">PK</span>
+                            </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@Alan_and_Shannon" target="_blank">
+                               Alan & Shannon
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           1M views &middot; 4 months ago
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <!-- video-2 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=ltzz0MTOJws&pp=ygUXbGVhcm4gYW55IHNraWxscyBxdWlja3k%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-2.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">12:10</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@TharunSpeaks" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-2.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=ltzz0MTOJws&pp=ygUXbGVhcm4gYW55IHNraWxscyBxdWlja3k%3D" target="_blank">
+                               5 High Paying Skills I'm learning in 2025! 
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@TharunSpeaks" target="_blank">
+                               Tharun Speaks   
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           381K views &middot; 2 weeks ago
+                       </p>
+                   </div>
+               </div>
+           </div>                
+            <!-- video-3 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=bSDprg24pEA&pp=ygUXbGVhcm4gYW55IHNraWxscyBxdWlja3k%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-3.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">13:48</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@JustinSung" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-3.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=bSDprg24pEA&pp=ygUXbGVhcm4gYW55IHNraWxscyBxdWlja3k%3D" target="_blank">
+                               5 High Paying Skills I'm learning in 2025!
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@JustinSung" target="_blank">
+                               Justin Sung
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           262K views &middot; 7 months ago
+                       </p>
+                   </div>
+               </div>
+           </div>                
+            <!-- video-4 -->
+            <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=0BjlBnfHcHM&pp=ygUIbXIgYmVhc3Q%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-4.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">22:45</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-4.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=0BjlBnfHcHM&pp=ygUIbXIgYmVhc3Q%3D" target="_blank">
+                               Beat Ronaldo, Win &dollar;1,000,000
+                           </a>        
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@MrBeast" target="_blank">
+                               MrBeast
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           170M views &middot; 3 weeks ago
+                       </p>
+                   </div>
+               </div>
+           </div>                
+            <!-- video-5 -->
+            <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=iJLKdHnExh4&pp=ygUbcGFraXN0YW4gaGlnZXN0IGNoYXNlIDM1Mi80" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-5.avif" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">17:28</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@SportsCentralOfficial" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-5.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=iJLKdHnExh4&pp=ygUbcGFraXN0YW4gaGlnZXN0IGNoYXNlIDM1Mi80" target="_blank">
+                               Highest Chase in ODI History By Pakistan Against Australia | Pakistan vs Australia |ODI | PCB | MM2A
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@SportsCentralOfficial" target="_blank">
+                               Sports Central
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           10M views &middot; 1 year ago
+                       </p>
+                   </div>
+               </div>
+           </div>                
+            <!-- video-6 -->
+            <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=Ru0R5Dvxv34&t=252s&pp=ygUVc3BvcnRzIHZpZGVvIHBha2lzdGFu" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-6.avif" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">16:03</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@hujrasabri7667" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-6.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=Ru0R5Dvxv34&t=252s&pp=ygUVc3BvcnRzIHZpZGVvIHBha2lzdGFu" target="_blank">
+                               Taimur Hassan Taimur Sahib Hujra Sabri 547 GB Mushaira Oct 2019
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@hujrasabri7667" target="_blank">
+                               HUJRA SABRI
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           11K views &middot; 5 years ago
+                       </p>
+                   </div>
+               </div>
+           </div>                
+            <!-- video-7 -->
+            <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=Xyd4edqVSfw&pp=ygUYaW5mb3JtYXRpb25hbCBhbmQgdHJpY2t5" target="_blank">
+                      <img class="img-thumbnail" src="thumbnails/thumbnail-7.webp" alt="video-thumbnail"> 
+                   </a>
+                   <div class="video-time">10:13</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@KidsLandOfficial" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-7.jpg" alt="profile-image">
+                        </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=Xyd4edqVSfw&pp=ygUYaW5mb3JtYXRpb25hbCBhbmQgdHJpY2t5" target="_blank">
+                               Quran Quiz Competition | New Ghulam Rasool Episode | 3D Animation Cartoon | Kids Land
+                            </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@KidsLandOfficial" target="_blank">
+                               Kids Land
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           5.7M views &middot; 11 months ago
+                       </p>
+                   </div>
+               </div>
+           </div>                
+            <!-- video-8 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=EFFVStl_Uac&pp=ygUOaW5mb3JtYXRpb25hbCA%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-8.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">8:29</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@SachYeHai" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-8.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=EFFVStl_Uac&pp=ygUOaW5mb3JtYXRpb25hbCA%3D" target="_blank">
+                               What is Happening in Antarctica? | Sach Ye Hai
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@SachYeHai" target="_blank">
+                               Sach Ye Hai
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           1.5M views &middot; 7 months ago
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <!-- video-9 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=9hWQpY-656M&pp=ygUOaW5mb3JtYXRpb25hbCA%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-9.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">12:12</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@GetSetFly" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-9.jpg" alt="profile-image">
+                       </a>    
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=9hWQpY-656M&pp=ygUOaW5mb3JtYXRpb25hbCA%3D" target="_blank">
+                               SPACE And TIME Don't Actually Exist | Here's Why Scientists Reveal
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@GetSetFly" target="_blank">
+                               GetsetflySCIENCE by Gaurav Thakur
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           1.8M views &middot; 1 year ago
+                       </p>
+                   </div>
+               </div>
+           </div> 
+           <!-- video-10 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=vyQv563Y-fk&pp=ygUWaW5mb3JtYXRpb24gYWJvdXQgdGVjaA%3D%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-10.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">8:56</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@Fireship" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-10.jpg" alt="profile-image">
+                       </a>    
+                   </div>
+                   <div class="video-details">           
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=vyQv563Y-fk&pp=ygUWaW5mb3JtYXRpb24gYWJvdXQgdGVjaA%3D%3D" target="_blank">
+                               You probably won't survive 2024... Top 10 Tech Trends
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@Fireship" target="_blank">
+                               Fireship
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           1.8M views &middot; 1 year ago
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <!-- video-11 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=nL-TOAiOEKI&pp=ygUOVG91ciBUbyBtdXJyZWU%3D" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-11.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">30:32</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@WildlensbyAbrar" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-11.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=nL-TOAiOEKI&pp=ygUOVG91ciBUbyBtdXJyZWU%3D" target="_blank">
+                               Finally the Most Epic Adventure Tour Starts 🇵🇰 EP.01 | North Pakistan Motorcycle Tour
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@WildlensbyAbrar" target="_blank">
+                               WildLens by Abrar
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           1.8M views &middot; 1 year ago
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <!-- video-12 -->
+           <div class="video-preview">
+               <div class="thumbnail-container">
+                   <a href="https://www.youtube.com/watch?v=xayoYq5bfaM&pp=ygUJQ29tcHV0ZXIg" target="_blank">
+                       <img class="img-thumbnail" src="thumbnails/thumbnail-12.webp" alt="video-thumbnail">
+                   </a>
+                   <div class="video-time">13:20</div>
+               </div>
+               <div class="video-info-grid">
+                   <div class="profile">
+                       <a href="https://www.youtube.com/@LinusTechTips" target="_blank">
+                           <img class="profile-pic" src="profile-pictures/channel-12.jpg" alt="profile-image">
+                       </a>
+                   </div>
+                   <div class="video-details">            
+                       <p class="video-title">
+                           <a class="video-link" href="https://www.youtube.com/watch?v=xayoYq5bfaM&pp=ygUJQ29tcHV0ZXIg" target="_blank">
+                               Is Now a Good Time to Buy a Gaming PC?
+                           </a>
+                       </p>
+                       <p class="video-author">
+                           <a class="channel-link" href="https://www.youtube.com/@LinusTechTips" target="_blank">
+                               Linus Tech Tips
+                           </a>
+                       </p>
+                       <p class="video-stats">
+                           1M views &middot; 2 weeks ago
+                       </p>
+                   </div>
+               </div>
+           </div>                                                       
+        </section>   
+    </main>
+</body>
+</html>
